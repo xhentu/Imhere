@@ -6,6 +6,7 @@ body {
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   font-family: 'Times New Roman', serif;
   border: none;
+  scroll-behavior: smooth;
 }
 
 #fixConsole {
