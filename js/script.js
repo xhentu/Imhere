@@ -69,15 +69,15 @@ window.addEventListener('scroll', () => {
     circle3.classList.remove('animate3');
   };
 });
-audio.play();
-let audioBtn = document.getElementById('audioBtn');
-let audio = document.getElementById('sonata');
-audioBtn.addEventListener('click', () => {
-  if (audio.muted) {
-    audio.muted = false;
-    audioBtn.style.border = "1px solid darkorchid";
-  } else {
-    audio.muted = true;
-    audioBtn.style.border = "none";
-  };
-});
+// audio.play();
+// let audioBtn = document.getElementById('audioBtn');
+// let audio = document.getElementById('sonata');
+// audioBtn.addEventListener('click', () => {
+//   if (audio.muted) {
+//     audio.muted = false;
+//     audioBtn.style.border = "1px solid darkorchid";
+//   } else {
+//     audio.muted = true;
+//     audioBtn.style.border = "none";
+//   };
+// });
