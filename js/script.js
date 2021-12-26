@@ -69,6 +69,7 @@ window.addEventListener('scroll', () => {
     circle3.classList.remove('animate3');
   };
 });
+audio.src = "assets\music\MoonlightSonata.mp3";
 audio.play();
 let audioBtn = document.getElementById('audioBtn');
 let audio = document.getElementById('sonata');
