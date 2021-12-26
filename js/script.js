@@ -9,7 +9,7 @@ window.addEventListener('scroll', () => {
     let number = document.getElementById("number");
     let counter = 0;
     setInterval(() => {
-        if (counter == 65) {
+        if (counter == 55) {
           clearInterval();
         } else {
           counter += 1;
@@ -33,7 +33,7 @@ window.addEventListener('scroll', () => {
     let number1 = document.getElementById("number1");
     let counter1 = 0;
     setInterval(() => {
-        if (counter1 == 30) {
+        if (counter1 == 33) {
           clearInterval();
         } else {
           counter1 += 1;
@@ -57,7 +57,7 @@ window.addEventListener('scroll', () => {
     let number2 = document.getElementById("number2");
     let counter2 = 0;
     setInterval(() => {
-        if (counter2 == 75) {
+        if (counter2 == 11) {
           clearInterval();
         } else {
           counter2 += 1;
@@ -69,15 +69,15 @@ window.addEventListener('scroll', () => {
     circle3.classList.remove('animate3');
   };
 });
-// audio.play();
-// let audioBtn = document.getElementById('audioBtn');
-// let audio = document.getElementById('sonata');
-// audioBtn.addEventListener('click', () => {
-//   if (audio.muted) {
-//     audio.muted = false;
-//     audioBtn.style.border = "1px solid darkorchid";
-//   } else {
-//     audio.muted = true;
-//     audioBtn.style.border = "none";
-//   };
-// });
+audio.play();
+let audioBtn = document.getElementById('audioBtn');
+let audio = document.getElementById('sonata');
+audioBtn.addEventListener('click', () => {
+  if (audio.muted) {
+    audio.muted = false;
+    audioBtn.style.border = "1px solid darkorchid";
+  } else {
+    audio.muted = true;
+    audioBtn.style.border = "none";
+  };
+});

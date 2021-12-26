@@ -103,19 +103,19 @@ svg {
 
 @keyframes animate1 {
   100% {
-    stroke-dashoffset: 165;
+    stroke-dashoffset: 212;
   }
 }
 
 @keyframes animate2 {
   100% {
-    stroke-dashoffset: 105;
+    stroke-dashoffset: 316;
   }
 }
 
 @keyframes animate3 {
   100% {
-    stroke-dashoffset: 105;
+    stroke-dashoffset: 420;
   }
 }
 
@@ -165,19 +165,19 @@ svg {
 
   @keyframes animate1 {
     100% {
-      stroke-dashoffset: 105;
+      stroke-dashoffset: 135;
     }
   }
 
   @keyframes animate2 {
     100% {
-      stroke-dashoffset: 105;
+      stroke-dashoffset: 201;
     }
   }
 
   @keyframes animate3 {
     100% {
-      stroke-dashoffset: 105;
+      stroke-dashoffset: 267;
     }
   }
 }
@@ -228,19 +228,19 @@ svg {
 
   @keyframes animate1 {
     100% {
-      stroke-dashoffset: 105;
+      stroke-dashoffset: 135;
     }
   }
 
   @keyframes animate2 {
     100% {
-      stroke-dashoffset: 105;
+      stroke-dashoffset: 201;
     }
   }
 
   @keyframes animate3 {
     100% {
-      stroke-dashoffset: 105;
+      stroke-dashoffset: 267;
     }
   }
 }
@@ -427,7 +427,9 @@ svg {
   margin: 2px;
 }
 
-/* .lilNava2 .btn {
+.lilNava2 .btn {
   border: 1px solid darkorchid;
   border-radius: 50%;
-} */
+}
+
+s
