@@ -81,5 +81,5 @@ audioBtn.addEventListener('click', () => {
   };
 });
 
-audio.src = "assets\music\MoonlightSonata.mp3";
-audio.play();
+// audio.src = "assets\music\MoonlightSonata.mp3";
+// audio.play();
