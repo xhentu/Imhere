@@ -80,6 +80,9 @@ audioBtn.addEventListener('click', () => {
     audioBtn.style.border = "none";
   };
 });
-
+const doit = () => {
+  audio.src = "assets\music\MoonlightSonata.mp3";
+  audio.play();
+}
 // audio.src = "assets\music\MoonlightSonata.mp3";
 // audio.play();
