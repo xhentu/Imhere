@@ -73,6 +73,7 @@ let audioBtn = document.getElementById('audioBtn');
 let audio = document.getElementById('sonata');
 audioBtn.addEventListener('click', () => {
   if (audio.muted) {
+    audio.play();
     audio.muted = false;
     audioBtn.style.border = "1px solid darkorchid";
   } else {
